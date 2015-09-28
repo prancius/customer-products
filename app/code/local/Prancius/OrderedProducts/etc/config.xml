@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <prancius_orderedproducts>
+            <version>0.0.1</version>
+        </prancius_orderedproducts>
+    </modules>
+
+    <frontend>
+
+        <routers>
+            <products>
+                <use>standard</use>
+                <args>
+                    <module>Prancius_OrderedProducts</module>
+                    <frontName>products</frontName>
+                </args>
+            </products>
+        </routers>
+
+        <layout>
+            <updates>
+                <products>
+                    <file>orderedproducts.xml</file>
+                </products>
+            </updates>
+        </layout>
+
+    </frontend>
+</config>
