@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <prancius_orderedproducts>
+        <Prancius_OrderedProducts>
             <version>0.0.1</version>
-        </prancius_orderedproducts>
+        </Prancius_OrderedProducts>
     </modules>
-
     <frontend>
-
         <routers>
             <products>
                 <use>standard</use>
@@ -17,7 +15,6 @@
                 </args>
             </products>
         </routers>
-
         <layout>
             <updates>
                 <products>
@@ -25,6 +22,5 @@
                 </products>
             </updates>
         </layout>
-
     </frontend>
 </config>

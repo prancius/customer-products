@@ -30,6 +30,10 @@ class Prancius_OrderedProducts_IndexController extends Mage_Core_Controller_Fron
 
     public function multiplyAction()
     {
-        echo "Labas";
+        $this->loadLayout();
+        $this->renderLayout();
+
+        //echo "Labas";
+        //die();
     }
 }

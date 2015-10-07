@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!-- Root node for Magento layout configuration -->
+<layout version="0.1.0">
+    <default>
+        <reference name="footer_links">
+            <action method="addLink" translate="label title" module="contacts" ifconfig="contacts/contacts/enabled"><label>Contact Us</label><url>contacts</url><title>Contact Us</title><prepare>true</prepare></action>
+        </reference>
+    </default>
+    <!--Page handle -->
+    <products_index_index>
+        <!-- reference tag specifies the block where we a going to add child block -->
+        <reference name="content">
+            <!-- Our page content block -->
+            <block type="core/template" name="helloworld" template="orderedproducts/orderedproducts.phtml"></block>
+        </reference>
+    </products_index_index>
+</layout>

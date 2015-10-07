@@ -1,0 +1,8 @@
+/var/
+/var/*
+/.htaccess
+/.buildpath
+/.project
+.idea/
+media/*
+.node-version

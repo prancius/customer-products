@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Prancius_OrderedProducts>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Prancius_OrderedProducts>
+    </modules>
+</config>
